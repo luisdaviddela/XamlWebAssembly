@@ -14,10 +14,10 @@ namespace xamwa.Controllers
     {
         public IActionResult Index()
         {
-            return View();
-            //var page = new XamlView();
-            //var element = page.GetOouiElement();
-            //return new ElementResult(element, "Hello XAML!");
+            //return View();
+            var page = new MainView();
+            var element = page.GetOouiElement();
+            return new ElementResult(element, "Hello XAML!");
         }
 
         public IActionResult About()
