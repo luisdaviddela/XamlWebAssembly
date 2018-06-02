@@ -17,11 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Xaml\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="MainView.xaml">
+    <EmbeddedResource Update="Xaml\View2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Xaml\MainView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

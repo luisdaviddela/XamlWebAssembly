@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace xamwa
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MainView : ContentPage
+	public partial class View2 : ContentPage
 	{
-		public MainView ()
+		public View2 ()
 		{
 			InitializeComponent ();
 		}

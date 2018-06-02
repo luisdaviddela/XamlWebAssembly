@@ -15,7 +15,7 @@ namespace xamwa.Controllers
         public IActionResult Index()
         {
             //return View();
-            var page = new MainView();
+            var page = new NavigationPage(new MainView()) ;
             var element = page.GetOouiElement();
             return new ElementResult(element, "Hello XAML!");
         }
